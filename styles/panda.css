@@ -2,6 +2,7 @@
 /* common css */
 *{
   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
 }
 
 .container{
@@ -19,6 +20,11 @@
     font-weight: 500;
 }
 
+.common-section-title{
+
+    font-weight: 600;
+    font-size: 36px;
+}
 /* custom css */
 nav{
     display: flex;
@@ -40,12 +46,7 @@ nav{
 }
 .search-parent i{
 
-    /* position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0; */
-
+ 
     position:absolute;
     top: 17px;
     right: 20px;
@@ -103,4 +104,52 @@ font-weight: bold;
     margin-bottom: 35px;
     display: block;
     margin-bottom: 0;
+}
+
+
+
+/* Categories */
+
+.categories{
+
+    margin: 64px 0 ;
+}
+
+.categories-card-container{
+    display: flex;
+    gap: 26px;
+    width: 100%;
+}
+
+.category-card{
+
+background-color: #FF9C35;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 4px;
+padding: 20px;
+border-radius: 10px;
+flex: 1;
+}
+
+.category-card h3{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.category-card:nth-child(1){
+
+background-color: #FF9C35;
+}
+.category-card:nth-child(2){
+background-color: #FF589B;
+
+}
+
+.category-card:nth-child(3){
+
+background-color: #4289FF;
+
 }
